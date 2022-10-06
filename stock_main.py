@@ -20,15 +20,15 @@ for date in dates:
 all_df = pd.DataFrame(all,columns=df_columns)
 # print(all_df)
 
-day = all_df["日期"].astype(str)
-close = all_df["收盤價"].astype(float)
+# day = all_df["日期"].astype(str)
+# close = all_df["收盤價"].astype(float)
 
-plt.figure(figsize=(20,10),dpi=100)
+# plt.figure(figsize=(20,10),dpi=100)
 
-plt.plot(day,close,'s-',color = 'r',label = "Close Price")
-plt.title("TSMC Line Chart")
-plt.xticks(fontsize=10,rotation=45)
-plt.yticks(fontsize=10)
-plt.legend(loc="best",fontsize=20)
+# plt.plot(day,close,'s-',color = 'r',label = "Close Price")
+# plt.title("TSMC Line Chart")
+# plt.xticks(fontsize=10,rotation=45)
+# plt.yticks(fontsize=10)
+# plt.legend(loc="best",fontsize=20)
 
-plt.show()
+# plt.show()
